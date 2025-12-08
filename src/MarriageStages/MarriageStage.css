@@ -1,0 +1,71 @@
+/* Cards */
+.marriage-card img {
+  height: 220px;
+  object-fit: cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.marriage-card {
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.10);
+  transition: transform 0.3s, box-shadow 0.3s;
+  background: #fff;
+}
+
+.marriage-card:hover {
+  transform: translateY(-7px) scale(1.03);
+  box-shadow: 0 8px 24px rgba(173, 20, 87, 0.18);
+}
+
+/* Section title */
+.section-title {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+  color: #ffee00ff;
+  letter-spacing: 1px;
+}
+
+/* Video */
+.video-wrapper video {
+  border-radius: 8px;
+}
+
+.event-info {
+  background: linear-gradient(90deg, #fff8f9 80%, #fce4ec 100%);
+  border-left: 5px solid #c2185b;
+  padding: 1.5rem;
+  border-radius: 12px;
+  margin-top: 1rem;
+  box-shadow: 0 2px 8px rgba(173, 20, 87, 0.07);
+}
+
+/* Rating */
+.rating-stars {
+  color: #ff9800;
+  font-size: 1.3rem;
+  letter-spacing: 2px;
+}
+
+/* Footer */
+footer {
+  background: linear-gradient(90deg, #880e4f 80%, #ad1457 100%);
+  color: white;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  box-shadow: 0 -4px 16px rgba(173, 20, 87, 0.10);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .marriage-card img {
+    height: 160px;
+  }
+  .video-wrapper {
+    margin-top: 30px;
+  }
+}

@@ -1,0 +1,190 @@
+{
+
+
+
+    "events": [
+    {
+      "title": "DJ Nights",
+      "description": "High-energy music and dazzling lights to keep the party going all night.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/DJ_for_Marriage_procession_in_Odisha.jpg/1200px-DJ_for_Marriage_procession_in_Odisha.jpg?20190213091113",
+      "link": "/djnights"
+    },
+    {
+      "title": "Birthday Celebrations",
+      "description": "Customized themes and decorations for a perfect birthday bash.",
+      "image": "https://cheetah.cherishx.com/uploads/birthday-special-balloon-decoration.jpg",
+      "link": "/birthdayCelebrations"
+    },
+    {
+      "title": "Mehandhi Functions",
+      "description": "Elegant and colorful decor to celebrate this special occasion.",
+      "image": "https://content.jdmagicbox.com/v2/comp/shahjahanpur/i4/9999p5842.5842.241230214820.y3i4/catalogue/wedding-decoration-haldi-mehendi-sadar-bazar-shahjahanpur-wedding-planners-r63pyin8ft.jpg",
+      "link": "/mehandhiFunction"
+    },
+    {
+      "title": "Marriage Stage",
+      "description": "Colorful decor to celebrate this special occasion.",
+      "image": "https://i.pinimg.com/736x/bf/42/50/bf4250dbfaf7859e6fb75f9ec33728b0.jpg",
+      "link": "/marriageStage"
+    },
+    {
+      "title": "Mangala Snanam",
+      "description": "Elegant and colorful decor to celebrate this special occasion.",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2022/2/JL/OJ/ZQ/133739788/new-product.jpeg",
+      "link": "/mangalaSnanam"
+    }
+  ],
+
+
+
+
+
+
+
+  "djNights": {
+    "headerTitle": "SR Events",
+    "subTitle": "Experience the best DJ Nights with us!",
+    "sectionTitle": "DJ Night Highlights",
+    "cards": [
+      {
+        "title": "Birthday Theme",
+        "description": "A unique birthday celebration setup tailored to client preferences and themes.",
+        "image": "https://placehold.co/600x400?text=Birthday"
+      },
+      {
+        "title": "DJ Night",
+        "description": "Dance the night away with our professional DJs and amazing sound systems.",
+        "image": "https://placehold.co/600x400?text=DJ+Night"
+      },
+      {
+        "title": "Decor & Ambience",
+        "description": "Stunning decorations and lighting to set the perfect party mood.",
+        "image": "https://placehold.co/600x400?text=Decor"
+      }
+    ],
+    "video": {
+      "poster": "https://placehold.co/1280x720?text=Birthday+Video+Preview",
+      "src": "https://www.w3schools.com/html/mov_bbb.mp4",
+      "locationTitle": "Event Location: Julepalle, Nandyal District",
+      "locationDescription": "A wonderful birthday party organized with colorful decoration and cheerful vibes.",
+      "rating": 4,
+      "ratingMax": 5
+    }
+  },
+
+
+
+
+
+
+  "mehndiFunction": {
+    "title": "Mehandhi Function",
+    "description": "Celebrate tradition and beauty with our vibrant Mehandhi setups.",
+    "cards": [
+      {
+        "title": "Birthday Theme",
+        "description": "A unique birthday celebration setup tailored to client preferences and themes.",
+        "image": "https://placehold.co/600x400?text=Birthday"
+      }
+    ],
+    "video": {
+      "poster": "https://placehold.co/1280x720?text=Mehandhi+Video+Preview",
+      "src": "https://www.w3schools.com/html/mov_bbb.mp4",
+      "location": "Event Location: Julepalle, Nandyal District",
+      "details": "A wonderful Mehandhi function organized with vibrant decorations and cheerful vibes.",
+      "rating": 4,
+      "ratingMax": 5
+    }
+  },
+
+
+
+
+
+
+
+
+
+
+
+  "marriageStage": {
+    "title": "Marriage Stage Decoration",
+    "description": "Make your wedding unforgettable with our elegant and creative stage setups.",
+    "sectionTitle": "Marriage Stage Highlights",
+    "sectionDescription": "SR Events specializes in stunning marriage stage decorations, blending tradition and modern elegance for your big day. Choose from a variety of themes and floral arrangements to match your dream wedding.",
+    "cards": [
+      {
+        "title": "Royal Floral Stage",
+        "description": "A grand stage adorned with fresh flowers, elegant drapes, and royal seating for the bride and groom.",
+        "image": "https://placehold.co/600x400?text=Marriage+Stage"
+      }
+    ],
+    "video": {
+      "poster": "https://placehold.co/1280x720?text=Marriage+Stage+Video",
+      "src": "https://www.w3schools.com/html/movie.mp4",
+      "location": "Event Location: Kurnool, Andhra Pradesh",
+      "details": "A mesmerizing marriage stage setup with intricate floral designs and vibrant lighting, creating a magical ambiance for the couple and guests.",
+      "rating": 5,
+      "ratingMax": 5
+    }
+  },
+  
+
+
+
+
+
+
+
+
+
+  "mangalaSnanam": {
+    "title": "Mangala Snanam",
+    "description": "Make the sacred Mangala Snanam ceremony in Telugu weddings a memorable experience.",
+    "sectionTitle": "Mangala Snanam Highlights",
+    "sectionDescription": "Mangala Snanam is an important ritual in Telugu wedding tradition. The bride and groom take this holy bath for purification. Family and friends participate joyfully, anointing them with turmeric, kumkum, and oil, and offering their blessings.",
+    "cards": [
+      {
+        "title": "Sacred Mangala Snanam",
+        "description": "A traditional Mangala Snanam ceremony where the bride/groom is anointed with turmeric and oil.",
+        "image": "https://placehold.co/600x400?text=Mangala+Snanam"
+      }
+    ],
+    "video": {
+      "poster": "https://placehold.co/1280x720?text=Mangala+Snanam+Video",
+      "src": "https://www.w3schools.com/html/movie.mp4",
+      "location": "Event Location: Kurnool, Andhra Pradesh",
+      "details": "During the Mangala Snanam ceremony, family members participate joyfully, singing traditional songs and offering their blessings to the bride/groom.",
+      "rating": 5,
+      "ratingMax": 5
+    }
+  },
+
+
+
+
+
+
+
+
+
+
+
+  "members": [
+    {
+      "name": "Alice Johnson",
+      "role": "Responsible for event coordination and logistics.",
+      "image": "member1.jpg"
+    },
+    {
+      "name": "Rahul Singh",
+      "role": "Handles marketing and social media promotions.",
+      "image": "member2.jpg"
+    },
+    {
+      "name": "Maria Garcia",
+      "role": "In charge of guest management and hospitality.",
+      "image": "member3.jpg"
+    }
+  ]
+}

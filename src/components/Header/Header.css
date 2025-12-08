@@ -1,0 +1,25 @@
+            body {
+                padding-top: 80px;
+                text-align: center;  
+            }
+            .navbar-brand {
+                display: flex;
+                align-items: center;
+                gap: 12px;
+            }
+            .brand-text {
+                display: flex;
+                flex-direction: column;
+                line-height: 1.1;
+            }
+            .brand-title {
+                font-size: 1.5rem;
+                font-weight: bold;
+                color: #ffc107;
+                margin-bottom: 0;
+            }
+            .brand-subtitle {
+                font-size: 0.9rem;
+                color: #fff;
+                margin-top: 0;
+            }

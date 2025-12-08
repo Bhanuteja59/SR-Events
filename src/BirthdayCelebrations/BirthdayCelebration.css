@@ -1,0 +1,40 @@
+body {
+  background-color: #f7f9fc;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 40px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Cards */
+.birthday-card img {
+  height: 220px;
+  object-fit: cover;
+  border-radius: 6px 6px 0 0;
+}
+
+/* Video */
+.video-wrapper video {
+  border-radius: 8px;
+}
+
+.info-box {
+  background-color: #fff !important;
+}
+
+.rating-stars {
+  color: #f1c40f;
+  font-size: 1.3rem;
+}
+
+/* Footer */
+.birthday-footer {
+  padding: 20px;
+  text-align: center;
+  background-color: #343a40;
+  color: white;
+  border-radius: 6px;
+}
