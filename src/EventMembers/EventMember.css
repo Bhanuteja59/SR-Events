@@ -1,12 +1,47 @@
+/* Container for all the cards */
+.container {
+  max-width: 1200px;
+}
+
+/* Card styling */
+.card {
+  border-radius: 10px; /* Optional: rounded corners */
+  overflow: hidden; /* Ensures no overflow */
+}
+
+/* Image styling inside the card */
+.card-img {
+  width: 100% !important; /* Makes image span the entire card width */
+  height: 400px !important; /* Set fixed height for the image */
+  object-fit: cover !important; /* Ensures the image covers the entire card area */
+  object-position: center !important; /* Ensures the image is centered */
+  border-radius: 10px 10px 0 0 !important; /* Rounded top corners */
+  transition: transform 0.3s ease !important; /* Smooth transition for hover effect */
+}
+
+/* Optional: Add a zoom effect on hover */
+.card-img:hover {
+  transform: scale(1.05) !important; /* Slightly zooms in the image */
+}
+
+/* Optional: Add shadow on hover */
+.card:hover .card-img {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Card title and text styling */
 .card-title {
-  color: #c2185b;
+  color: #c2185b; /* Pink color */
   font-weight: bold;
 }
 
 .card-text {
-  color: #555;
+  color: #555; /* Dark grey text */
 }
 
-.container {
-  max-width: 1200px;
+/* Make the container responsive */
+@media (max-width: 768px) {
+  .card-img {
+    height: 200px !important; /* Adjust height for smaller screens */
+  }
 }

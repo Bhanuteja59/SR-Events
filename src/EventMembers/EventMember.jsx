@@ -1,6 +1,6 @@
 import React from "react";
-import membersData from "../Data/Data.json";
-import "./EventMember.css";
+import membersData from "../Data/Data.json"; // Your data file
+import "./EventMember.css"; // Your styles file
 
 function EventMembers() {
   return (
@@ -15,10 +15,10 @@ function EventMembers() {
       <div className="row g-4">
         {membersData.members.map((member, index) => (
           <div className="col-sm-6 col-lg-4" key={index}>
-            <div className="card h-100 shadow-sm">
+            <div className="card shadow-lg">
               <img
-                src={`${member.image}`}  // ✅ Use public folder path
-                className="card-img-top img-fluid rounded-top"
+                src={require(`../../public/assests/images/${member.image}`)}// Correctly reference the image from the public folder
+                className="card-img"
                 alt={member.name}
               />
               <div className="card-body text-center">

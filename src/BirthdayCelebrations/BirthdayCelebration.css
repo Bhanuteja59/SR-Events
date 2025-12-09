@@ -1,40 +1,86 @@
 body {
-  background-color: #f7f9fc;
-}
-
-.section-title {
-  text-align: center;
-  margin-bottom: 40px;
-  font-weight: bold;
+  background: linear-gradient(135deg, #fff0f5 0%, #f8bbd0 100%);
+  font-family: 'Segoe UI', sans-serif;
   color: #333;
 }
 
-/* Cards */
-.birthday-card img {
-  height: 220px;
-  object-fit: cover;
-  border-radius: 6px 6px 0 0;
+/* Header */
+.mehndi-header {
+  background: linear-gradient(90deg, #ad1457 60%, #f06292 100%);
+  color: white;
+  padding: 2rem 1rem;
+  box-shadow: 0 4px 16px rgba(173, 20, 87, 0.15);
 }
 
-/* Video */
+/* Section Title */
+.section-title {
+  text-align: center;
+  margin: 2rem 0;
+  font-weight: bold;
+  color: #880e4f;
+}
+
+/* Cards */
+.mehndi-card img {
+  height: 220px;
+  object-fit: cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.mehndi-card {
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.10);
+  transition: transform 0.3s, box-shadow 0.3s;
+  background: #fff;
+}
+
+.mehndi-card:hover {
+  transform: translateY(-7px) scale(1.03);
+  box-shadow: 0 8px 24px rgba(173, 20, 87, 0.18);
+}
+
+/* Video Section */
 .video-wrapper video {
   border-radius: 8px;
 }
 
-.info-box {
-  background-color: #fff !important;
+.event-info {
+  background: linear-gradient(90deg, #fff8f9 80%, #fce4ec 100%);
+  border-left: 5px solid #c2185b;
+  padding: 1.5rem;
+  border-radius: 12px;
+  margin-top: 1rem;
+  box-shadow: 0 2px 8px rgba(173, 20, 87, 0.07);
 }
 
+/* Rating */
 .rating-stars {
-  color: #f1c40f;
+  color: #ff9800;
   font-size: 1.3rem;
+  letter-spacing: 2px;
 }
 
 /* Footer */
-.birthday-footer {
-  padding: 20px;
-  text-align: center;
-  background-color: #343a40;
+.mehndi-footer {
+  background: linear-gradient(90deg, #880e4f 80%, #ad1457 100%);
   color: white;
-  border-radius: 6px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  box-shadow: 0 -4px 16px rgba(173, 20, 87, 0.10);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .mehndi-card img {
+    height: 160px;
+  }
+  .video-wrapper {
+    margin-top: 30px;
+  }
+  .mehndi-header {
+    padding: 1.2rem 0.5rem;
+  }
 }

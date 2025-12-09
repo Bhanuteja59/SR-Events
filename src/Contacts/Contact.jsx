@@ -30,7 +30,7 @@ const Contact = () => {
             </div>
 
             {/* Contact Form */}
-            <div className="col-lg-6 d-flex align-items-stretch">
+            {/* <div className="col-lg-6 d-flex align-items-stretch">
               <div className="form-box text-start w-100">
                 <form className="contact-form">
                   <div className="mb-3">
@@ -61,7 +61,7 @@ const Contact = () => {
                   </div>
                 </form>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

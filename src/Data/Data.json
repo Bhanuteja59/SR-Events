@@ -1,3 +1,4 @@
+
 {
 
 
@@ -132,6 +133,33 @@
 
 
 
+  
+"birthdaystage": {
+  "title": "Birthday Stage Decoration",
+  "description": "Make your birthday unforgettable with our elegant and creative stage setups.",
+  "sectionTitle": "Birthday Stage Highlights",
+  "sectionDescription": "SR Events specializes in stunning birthday stage decorations, blending fun, elegance, and creativity to make your celebration extraordinary. Choose from a variety of themes, balloons, backdrops, and floral arrangements to match your dream birthday vibe.",
+  "cards": [
+    {
+      "title": "Royal Birthday Floral Stage",
+      "description": "A beautifully designed birthday stage adorned with fresh flowers, vibrant balloons, themed props, and elegant lighting to create a royal and festive celebration.",
+      "image": "https://placehold.co/600x400?text=Birthday+Stage"
+    }
+  ],
+  "video": {
+    "poster": "https://placehold.co/1280x720?text=Birthday+Stage+Video",
+    "src": "https://www.w3schools.com/html/movie.mp4",
+    "location": "Event Location: Kurnool, Andhra Pradesh",
+    "details": "A stunning birthday stage setup featuring themed decorations, colorful lighting, floral arrangements, and a joyful ambiance perfect for capturing unforgettable memories.",
+    "rating": 5,
+    "ratingMax": 5
+  }
+},
+
+
+
+
+
 
 
 
@@ -172,19 +200,12 @@
 
   "members": [
     {
-      "name": "Alice Johnson",
+      "name": "Rahamthulla ",
       "role": "Responsible for event coordination and logistics.",
-      "image": "member1.jpg"
-    },
-    {
-      "name": "Rahul Singh",
-      "role": "Handles marketing and social media promotions.",
-      "image": "member2.jpg"
-    },
-    {
-      "name": "Maria Garcia",
-      "role": "In charge of guest management and hospitality.",
-      "image": "member3.jpg"
+      "image": "rahamthulla.jpg"
     }
   ]
+
+
+  
 }
