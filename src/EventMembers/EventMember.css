@@ -42,6 +42,6 @@
 /* Make the container responsive */
 @media (max-width: 768px) {
   .card-img {
-    height: 200px !important; /* Adjust height for smaller screens */
+    height: 400px !important; /* Adjust height for smaller screens */
   }
 }
